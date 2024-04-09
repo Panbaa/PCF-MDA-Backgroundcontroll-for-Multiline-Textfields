@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="MultilineColorChange" constructor="MultilineColorChange" version="0.0.26" display-name-key="MultilineColorChange" description-key="MultilineColorChange description" control-type="standard">
+    <type-group name="_text">
+      <type>SingleLine.TextArea</type>
+      <type>Multiple</type>
+    </type-group>
+    <property name="InputFieldToChange" display-name-key="InputFieldToChange_Display_Key" description-key="Change Background Colour" of-type-group="_text" usage="bound" required="true" />
+    <property name="ColorInRGB" display-name-key="ColorInRGB_Display_Key" description-key="Enter Color in rgb(zzz,yyy,xxx)" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="HeightInLines" display-name-key="HeightInLines_Display_Key" description-key="Enter the Height of the Textfield in Number of Lines you need. It will be scrollable if you have more Lines than defined." of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="styles.css" order="1" />
+    </resources>
+  </control>
+</manifest>
