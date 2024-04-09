@@ -13,4 +13,4 @@ As shown below:
 
 Apply the changes and you will see the color in your field.
 
-If you encounter any problem or wish more extension feel free to message me via LinkedIn
+If you encounter any problem or wish more extension feel free to message me via [LinkedIn](https://de.linkedin.com/in/gilbert-lynsche-572b51241).
